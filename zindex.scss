@@ -1,0 +1,141 @@
+.main {
+    // position: relative;
+    // transform-style: preserve-3d;
+    // transform-origin: 50% 50%;
+    // transform: perspective(10000px) rotateX(0) rotateY(0deg) rotateZ(0) translateX(200px) translateY(20px) translateZ(0);
+    // display: flex;
+    // margin-top: 200px;
+    // width: 600px;
+    // margin-left: 200px;
+    width: 100vw;
+    height: 100vh;
+}
+#main-svg {
+    width: 100vw;
+    height: 100vh;
+    position: relative;  
+    top: -20px; 
+    transition: all ease 1600ms;
+
+}
+#main-svg .layer {
+    position: absolute;
+    transition: all ease 1600ms;
+    transform-style: preserve-3d;
+    transition: all ease 1600ms;
+
+}
+.layer {
+    transform: perspective(10000px) rotateX(0) rotateY(0deg) rotateZ(0) translateX(35px) translateY(0px) translateZ(0);
+    transition: all ease 1600ms;
+    
+}
+
+#main-svg:hover .layer5 {
+    transform: perspective(600px) rotateX(0) rotateY(2deg) rotateZ(0) translateX(0) translateY(0px) translateZ(150px);
+    transition: all ease 1600ms;
+
+}
+
+#main-svg:hover .layer4 {
+    transform: perspective(600px) rotateX(0) rotateY(2deg) rotateZ(0) translateX(0) translateY(0px) translateZ(100px);
+    transition: all ease 1600ms;
+
+}
+
+#main-svg:hover .layer3 {
+    transform: perspective(600px) rotateX(0) rotateY(2deg) rotateZ(0) translateX(0) translateY(0px) translateZ(50px);
+    transition: all ease 1600ms;
+
+}
+
+#main-svg:hover .floor {
+    transform: rotateX(10deg) rotateY(15deg) rotateZ(0deg) translateX(220px) translateY(330px) translateZ(0);
+    transition: all ease 1600ms;
+    ry: 200px;
+    rx: 1400px;
+}
+
+#main-svg:hover .layer2 {
+    transition: all ease 1600ms;
+    transform: perspective(600px) rotateX(0) rotateY(2deg) rotateZ(0) translateX(0) translateY(0px) translateZ(0px);
+}
+
+
+#main-svg:hover .layer1 {
+    transform: perspective(600px) rotateX(0) rotateY(2deg) rotateZ(0) translateX(0) translateY(0px) translateZ(-50px);
+    transition: all ease 1600ms;
+
+}
+
+
+// #layer1 {
+//     width: 300px;
+//     height: 200px;
+//     background-color: orchid;
+//     transform: perspective(600px) rotateY(0) rotateZ(0deg) rotateX(0) translateZ(-20px);
+//     transform-style: preserve-3d;
+//     // position: absolute;
+// }
+
+// .layer2 {
+//     width: 300px;
+//     height: 200px;
+//     background-color: orchid;
+//     transform: perspective(600px) rotateY(0) rotateZ(0deg) rotateX(0) translateY(20px) translateX(20px) translateZ(20px);
+//     transform-style: preserve-3d;
+//     // position: absolute;
+// }
+// #layer3 {
+//     width: 300px;
+//     height: 200px;
+//     background-color: orchid;
+//     transform: perspective(600px) rotateY(0) rotateZ(0deg) rotateX(0) translateZ(40px);
+//     transform-style: preserve-3d;
+//     // position: absolute;
+// }
+// .layer4 {
+//     width: 300px;
+//     height: 200px;
+//     background-color: orchid;
+//     transform: perspective(600px) rotateY(0) rotateZ(0deg) rotateX(0) translateZ(70px);
+//     transform-style: preserve-3d;
+//     // position: absolute;
+// }
+// .layer5 {
+//     width: 300px;
+//     height: 200px;
+//     background-color: orchid;
+//     transform: perspective(600px) rotateY(0) rotateZ(0deg) rotateX(0) translateZ(100px);
+//     transform-style: preserve-3d;
+//     // position: absolute;
+// }
+// .rect2 {
+//     width: 50px;
+//     height: 50px;
+//     // background-color: orchid;
+//     // border: black 2px solid;
+//     background-color: black;
+//     transform: perspective(600px) rotateX(0) rotateY(90deg) rotateZ(0) translateZ(100px);
+//     transform-style: preserve-3d;
+//     position: absolute;
+//     top: 50px;
+//     left: 100px;
+//     transition: all ease 1600ms;
+
+//     // z-index: 999;
+// }
+// .rect {
+//     width: 200px;
+//     height: 200px;
+//     // background-color: orchid;
+//     // border: black 2px solid;
+//     background-color: purple;
+//     transform: perspective(600px) rotateX(0) rotateY(90deg) rotateZ(0) translateX(0) translateY(0) translateZ(0);
+//     // transform-style: preserve-3d;
+//     position: absolute;
+//     top: 50px;
+//     transition: all ease 1600ms;
+//     // left: 100px;
+//     // z-index: 999;
+// }

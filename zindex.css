@@ -1,0 +1,74 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+}
+
+#main-svg {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  top: -20px;
+  -webkit-transition: all ease 1600ms;
+  transition: all ease 1600ms;
+}
+
+#main-svg .layer {
+  position: absolute;
+  -webkit-transition: all ease 1600ms;
+  transition: all ease 1600ms;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  transition: all ease 1600ms;
+}
+
+.layer {
+  -webkit-transform: perspective(10000px) rotateX(0) rotateY(0deg) rotateZ(0) translateX(35px) translateY(0px) translateZ(0);
+          transform: perspective(10000px) rotateX(0) rotateY(0deg) rotateZ(0) translateX(35px) translateY(0px) translateZ(0);
+  -webkit-transition: all ease 1600ms;
+  transition: all ease 1600ms;
+}
+
+#main-svg:hover .layer5 {
+  -webkit-transform: perspective(600px) rotateX(0) rotateY(2deg) rotateZ(0) translateX(0) translateY(0px) translateZ(150px);
+          transform: perspective(600px) rotateX(0) rotateY(2deg) rotateZ(0) translateX(0) translateY(0px) translateZ(150px);
+  -webkit-transition: all ease 1600ms;
+  transition: all ease 1600ms;
+}
+
+#main-svg:hover .layer4 {
+  -webkit-transform: perspective(600px) rotateX(0) rotateY(2deg) rotateZ(0) translateX(0) translateY(0px) translateZ(100px);
+          transform: perspective(600px) rotateX(0) rotateY(2deg) rotateZ(0) translateX(0) translateY(0px) translateZ(100px);
+  -webkit-transition: all ease 1600ms;
+  transition: all ease 1600ms;
+}
+
+#main-svg:hover .layer3 {
+  -webkit-transform: perspective(600px) rotateX(0) rotateY(2deg) rotateZ(0) translateX(0) translateY(0px) translateZ(50px);
+          transform: perspective(600px) rotateX(0) rotateY(2deg) rotateZ(0) translateX(0) translateY(0px) translateZ(50px);
+  -webkit-transition: all ease 1600ms;
+  transition: all ease 1600ms;
+}
+
+#main-svg:hover .floor {
+  -webkit-transform: rotateX(10deg) rotateY(15deg) rotateZ(0deg) translateX(220px) translateY(330px) translateZ(0);
+          transform: rotateX(10deg) rotateY(15deg) rotateZ(0deg) translateX(220px) translateY(330px) translateZ(0);
+  -webkit-transition: all ease 1600ms;
+  transition: all ease 1600ms;
+  ry: 200px;
+  rx: 1400px;
+}
+
+#main-svg:hover .layer2 {
+  -webkit-transition: all ease 1600ms;
+  transition: all ease 1600ms;
+  -webkit-transform: perspective(600px) rotateX(0) rotateY(2deg) rotateZ(0) translateX(0) translateY(0px) translateZ(0px);
+          transform: perspective(600px) rotateX(0) rotateY(2deg) rotateZ(0) translateX(0) translateY(0px) translateZ(0px);
+}
+
+#main-svg:hover .layer1 {
+  -webkit-transform: perspective(600px) rotateX(0) rotateY(2deg) rotateZ(0) translateX(0) translateY(0px) translateZ(-50px);
+          transform: perspective(600px) rotateX(0) rotateY(2deg) rotateZ(0) translateX(0) translateY(0px) translateZ(-50px);
+  -webkit-transition: all ease 1600ms;
+  transition: all ease 1600ms;
+}
+/*# sourceMappingURL=zindex.css.map */
